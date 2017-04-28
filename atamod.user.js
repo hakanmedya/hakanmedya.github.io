@@ -288,7 +288,7 @@ setTimeout(function () {
                               '<a href="http://ogario.ovh" target="_blank">OGARio</a> ' + ogarioVersion);
 
     // donate button
-    $("#menu-footer").after('<a href="http://hizliresim.com/DP14Yl"><img src="http://i.hizliresim.com/DP14Yl.png"></a>');
+    $("#menu-footer").after('<a href="http://hizliresim.com/DP14Yl"><img src="http://i.hizliresim.com/P0dP1b.png"></a>');
 
     //$("#minimap-sectors").attr("style", "opacity: 0.25;");
 
@@ -1210,3 +1210,5 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
     }
 }
 //document.getElementById("my-element").remove();
+
+
