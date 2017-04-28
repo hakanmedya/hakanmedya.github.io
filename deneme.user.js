@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         HakanMedya mod v0.3 (OGARio v3)
-// @namespace    ogario.v2
+// @name         ATA CLAN MOD | HAKANMEDYA
+// @namespace    ogario.v4
 // @version      0.3
-// @description  OGARio - HakanMedya mod v0.3
-// @homepage     http://www.HakanMedyamod.ml
-// @author       szymy and HakanMedya (mod only)
+// @description  ATA CLAN MOD | HAKANMEDYA 
+// @homepage     http://www.HakanMedyamod.com
+// @author       Hakanmedya | Hakan YİĞİT (mod only)
 // @icon         http://HakanMedyaclan.000webhostapp.com/HakanMedyamodpic.png
 // @match        http://agar.io/*
 // @updateURL    https://raw.githubusercontent.com/HakanMedyaclan/mod/master/HakanMedyamod.user.js
@@ -64,7 +64,7 @@ GM_xmlhttpRequest({
 });
 
 /*************
-* HakanMedya mod
+* Burası 1
 *************/
 
 
@@ -85,7 +85,7 @@ var originalDeath;
 
 
 setTimeout(function () {
-    document.title = "HAKANMEDYA" + modVersion;
+    document.title = "Burası 2" + modVersion;
 //document.getElementById("import-settings").value="jim";
     // change buttons styles
     $("button:contains('Spectate')").html('<span class="glyphicon glyphicon-globe"></span>').attr('data-toggle', "tooltip").prop('title', 'Spectate');
@@ -124,8 +124,8 @@ setTimeout(function () {
                            '</div>');
 
     $(".menu-tabs").children().attr("style", "width: 14.27%;");
-    $(".menu-tabs").children().last().after('<li class="HakanMedya-tab" style="width: 14.27%; height: 100%;" data-toggle="tooltip" data-title="HakanMedya" data-placement="top"><a style="height: 100%;" onclick="$(\'#main-menu\').children(\'div\').hide(); $(\'.menu-tabs\').children(\'li\').removeClass(\'active\'); $(\'.menu-tabs\').children(\'li\').children(\'a\').removeClass(\'active\'); $(\'#HakanMedya\').fadeIn(); $(this).addClass(\'active\'); $(this).parent().addClass(\'active\'); $(\'#helloContainer\').attr(\'style\',\'transform: translate(-50%, 0%) scale(1); top: 207px;\')" href="javascript:void(0);" class="fa fa-cogs"></a></li>');
-    $("#main-menu").children().last().after('<div id="HakanMedya" class="menu-panel"><div class="agario-panel HakanMedya-panel"><h5 class="menu-main-color">HakanMedya mod options</h5>' +
+    $(".menu-tabs").children().last().after('<li class="Burası 3-tab" style="width: 14.27%; height: 100%;" data-toggle="tooltip" data-title="Burası 4" data-placement="top"><a style="height: 100%;" onclick="$(\'#main-menu\').children(\'div\').hide(); $(\'.menu-tabs\').children(\'li\').removeClass(\'active\'); $(\'.menu-tabs\').children(\'li\').children(\'a\').removeClass(\'active\'); $(\'#Burası 5\').fadeIn(); $(this).addClass(\'active\'); $(this).parent().addClass(\'active\'); $(\'#helloContainer\').attr(\'style\',\'transform: translate(-50%, 0%) scale(1); top: 207px;\')" href="javascript:void(0);" class="fa fa-cogs"></a></li>');
+    $("#main-menu").children().last().after('<div id="Burası 6" class="menu-panel"><div class="agario-panel Burası 7-panel"><h5 class="menu-main-color">Burası 8 mod options</h5>' +
                                             '<button id="showCurTKBtn" type="button" class="btn btn-sm btn-info" data-toggle="button" aria-pressed="false" autocomplete="off" style="width: 50%; border-color: darkslategrey;"> Show token</button>' +
                                             '<button id="showPlayerBtn" type="button" class="btn btn-sm btn-info" data-toggle="button" aria-pressed="false" autocomplete="off" style="width: 50%; border-color: darkslategrey;">Show player</button>' +
                                             '<h5 class="menu-main-color" style="margin-top: 20px;">Other features</h5>' +
@@ -283,8 +283,8 @@ setTimeout(function () {
 
     var ogarioVersion = $("#menu-footer").text().split("| ")[1];
     $("#menu-footer").text("");
-    // HakanMedya footer
-    $("#menu-footer").prepend('<span style="float: left; font-size: 13px;"><a target="_blank" onclick="ga(\'send\', \'event\', \'Link\', \'click\', \'HakanMedyaWebsite\');" href="http://HakanMedyamod.000webhostapp.com/" style="color: #ffffff;" data-toggle="tooltip" data-title="HakanMedya Mod Website" data-placement="left">HakanMedya mod v' + modVersion + '</a></span>' +
+    // Burası 9 footer
+    $("#menu-footer").prepend('<span style="float: left; font-size: 13px;"><a target="_blank" onclick="ga(\'send\', \'event\', \'Link\', \'click\', \'Burası 10\');" href="http://agar.hakanmedya.com/" style="color: #ffffff;" data-toggle="tooltip" data-title="Burası 11 Mod Website" data-placement="left">Burası 12 mod v' + modVersion + '</a></span>' +
                               '<a href="http://ogario.ovh" target="_blank">OGARio</a> ' + ogarioVersion);
 
     // donate button
@@ -620,7 +620,7 @@ setTimeout(function () {
     // load tooltips
     $('[data-toggle="tooltip"]').tooltip();
 
-    // load HakanMedya settings
+    // load Burası 13 settings
     var autoRespawn = localStorage.getItem("autoRespawn");
     var showToken = localStorage.getItem("showTK");
     var showPlayer = localStorage.getItem("showPlayer");
@@ -636,7 +636,7 @@ setTimeout(function () {
 
     // remove leaderboard setting
     $("#normalLb").parent().remove();
-    $("#leaderboard-hud > h4").text("HakanMedya-mod");
+    $("#leaderboard-hud > h4").text("Burası 15-mod");
 
     // fix party stuff
     $('#gamemode').on('change', function () {
@@ -644,18 +644,18 @@ setTimeout(function () {
     });
 
     // ADS
-    $("#main-panel").append('<div id="HakanMedyaAds"></div>');
+    $("#main-panel").append('<div id="Burası 16Ads"></div>');
     var tag1 = document.getElementById("nick").value;
 	if(tag1.includes("❶")==true){
-    $("#HakanMedyaAds").load("https://raw.githubusercontent.com/HakanMedyaclan/mod/master/.banner");
+    $("#Burası 17Ads").load("https://raw.githubusercontent.com/HakanMedyaclan/mod/master/.banner");
     }
     else{
-	$("#HakanMedyaAds").load("https://raw.githubusercontent.com/HakanMedyaclan/mod/master/.banner2");
+	$("#Burası 18Ads").load("https://raw.githubusercontent.com/HakanMedyaclan/mod/master/.banner2");
     }
     // ANNOUNCEMENTS
     var nick1 = document.getElementById("nick").value;
-    toastr["info"]('HakanMedya mod v' + modVersion + ': Fixed Minor Ogario Sync Bugs!! Enjoy! :D');
-    toastr["info"]('Hello ' + nick1 +'! </br>HakanMedya Mod website: <a target="_blank" href="http://HakanMedyamod.000webhostapp.com/">LINK</a>');
+    toastr["info"]('Burası 19 mod v' + modVersion + ': Fixed Minor Ogario Sync Bugs!! Enjoy! :D');
+    toastr["info"]('Hello ' + nick1 +'! </br>Burası 20 Mod website: <a target="_blank" href="http://Burası 21/">LINK</a>');
 
 }, 6000);
 
