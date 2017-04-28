@@ -654,8 +654,7 @@ setTimeout(function () {
     }
     // ANNOUNCEMENTS
     var nick1 = document.getElementById("nick").value;
-    toastr["info"]('Burası 19 mod v' + modVersion + ': Fixed Minor Ogario Sync Bugs!! Enjoy! :D');
-    toastr["info"]('Hello ' + nick1 +'! </br>Agar.io | ATA CLAN MOD website: <a target="_blank" href="http://Burası 21/">LINK</a>');
+    toastr["info"]('Merhaba ' + nick1 +'! </br>İyi Oyunlar/Good Games :)</a>');
 
 }, 6000);
 
