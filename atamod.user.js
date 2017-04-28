@@ -5,7 +5,7 @@
 // @description  ATA CLAN MOD | HAKANMEDYA 
 // @homepage     http://www.HakanMedyamod.com
 // @author       Hakanmedya | Hakan YİĞİT (mod only)
-// @icon         http://HakanMedyaclan.000webhostapp.com/HakanMedyamodpic.png
+// @icon         http://agar.hakanmedya.com/banner2.png
 // @match        http://agar.io/*
 // @updateURL    https://raw.githubusercontent.com/HakanMedyaclan/mod/master/HakanMedyamod.user.js
 // @run-at       document-start
@@ -288,7 +288,7 @@ setTimeout(function () {
                               '<a href="http://ogario.ovh" target="_blank">OGARio</a> ' + ogarioVersion);
 
     // donate button
-    $("#menu-footer").after('<a href="http://hizliresim.com/DP14Yl"><img src="http://i.hizliresim.com/P0dP1b.png"></a>');
+    $("#menu-footer").after('<a href="http://agar.hakanmedya.com"><img src="http://agar.hakanmedya.com/banner.png"></a>');
 
     //$("#minimap-sectors").attr("style", "opacity: 0.25;");
 
