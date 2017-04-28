@@ -636,7 +636,7 @@ setTimeout(function () {
 
     // remove leaderboard setting
     $("#normalLb").parent().remove();
-    $("#leaderboard-hud > h4").text("lİDER SIRALAMASI");
+    $("#leaderboard-hud > h4").text("LEADER BOARD");
 
     // fix party stuff
     $('#gamemode').on('change', function () {
