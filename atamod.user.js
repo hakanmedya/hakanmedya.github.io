@@ -284,7 +284,7 @@ setTimeout(function () {
     var ogarioVersion = $("#menu-footer").text().split("| ")[1];
     $("#menu-footer").text("");
     // Burası 9 footer
-    $("#menu-footer").prepend('<span style="float: left; font-size: 13px;"><a target="_blank" onclick="ga(\'send\', \'event\', \'Link\', \'click\', \'Burası 10\');" href="http://agar.hakanmedya.com/" style="color: #ffffff;" data-toggle="tooltip" data-title="ATA Clan Web Site" data-placement="left">Geliştirici |ԹԵԹ】ΛDΛИΛLI v' + modVersion + '</a></span>' +
+    $("#menu-footer").prepend('<span style="float: left; font-size: 13px;"><a target="_blank" onclick="ga(\'send\', \'event\', \'Link\', \'click\', \'Burası 10\');" href="http://agar.hakanmedya.com/" style="color: #ffffff;" data-toggle="tooltip" data-title="ATA Clan Web Site" data-placement="left">Developer: |ԹԵԹ】ΛDΛИΛLI v' + modVersion + '</a></span>' +
                               '<a href="http://ogario.ovh" target="_blank">OGARio</a> ' + ogarioVersion);
 
     // donate button
