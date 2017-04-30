@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         ATA CLAN MOD | HAKANMEDYA
+// @name         ATA CLAN SKİN | HAKANMEDYA
 // @namespace    ogario.v4
 // @version      0.4
-// @description  ATA CLAN MOD | HAKANMEDYA 
+// @description  ATA CLAN SKİN | HAKANMEDYA 
 // @homepage     http://www.HakanMedyamod.com
 // @author       Hakanmedya | Hakan YİĞİT (mod only)
 // @icon         http://agar.hakanmedya.com/banner2.png
