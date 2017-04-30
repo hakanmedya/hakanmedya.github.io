@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         ATA CLAN SKİN
+// @name         ATA CLAN SKİN | HAKANMEDYA
 // @namespace    AgarIO.AllysExt
 // @version      0.64
-// @description  ...
-// @author       SeyKo
-// @icon64       http://imasters.org.ru/agar/agar_allys_ext_favicon.png
-// @icon64URL    http://imasters.org.ru/agar/agar_allys_ext_favicon.png
-// @icon         http://imasters.org.ru/agar/agar_allys_ext_favicon.png
+// @description  ATA CLAN SKİN | HAKANMEDYA
+// @author       Hakanmedya | Hakan YİĞİT (mod only)
+// @icon64       http://agar.hakanmedya.com/banner2.png
+// @icon64URL    http://agar.hakanmedya.com/banner2.png
+// @icon         http://agar.hakanmedya.com/banner2.png
 // @match        http://agar.io/*
 // @run-at       document-start
 // ==/UserScript==
