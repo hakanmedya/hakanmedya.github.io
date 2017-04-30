@@ -1,10 +1,9 @@
 // ==UserScript==
-// @name         ATA CLAN SKİN | HAKANMEDYA
-// @namespace    ogario.v4
-// @version      0.4
-// @description  ATA CLAN SKİN | HAKANMEDYA 
-// @homepage     http://www.HakanMedyamod.com
-// @author       Hakanmedya | Hakan YİĞİT (mod only)
+// @name         ATA CLAN SKİN
+// @namespace    AgarIO.AllysExt
+// @version      0.64
+// @description  ...
+// @author       SeyKo
 // @icon64       http://imasters.org.ru/agar/agar_allys_ext_favicon.png
 // @icon64URL    http://imasters.org.ru/agar/agar_allys_ext_favicon.png
 // @icon         http://imasters.org.ru/agar/agar_allys_ext_favicon.png
